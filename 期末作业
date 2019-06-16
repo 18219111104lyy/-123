@@ -1,0 +1,915 @@
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>日本美食</title>
+   <style type="text/css">
+      body {
+         background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558504865685&di=6974dda431ffa6608079d84900b4a224&imgtype=0&src=http%3A%2F%2Fimg.7xz.com%2Fimg%2Fpicimg%2F201610%2F20161008144551_727d1cc94245d871983.jpg);
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .jumbotron{
+         background-image:url(http://japan.people.com.cn/NMediaFile/2013/0923/MAIN201309231340000111779088076.jpg);  
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height:300px;
+      }
+
+      #about_one {
+         background-color: WhiteSmoke;
+         margin-top: 40px;
+         padding-top: 25px;
+      }
+
+      #menu {
+         background-color: Gainsboro;
+         padding-top: 50px;
+         margin-top: 30px;
+         width: 85%;
+      }
+
+      #img1 {
+         width: 100px;
+         height: 100px;
+      }
+      .qqq{
+         background-image: url(http://pic202.nipic.com/file/20190111/23566073_150753500085_2.jpg);
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: cover;
+         width:100%;
+         height:400px;
+      }
+      .contact{
+         width:100%;
+         height:300px;
+         padding-top: 30px;
+      }
+   </style>
+   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+   <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   <div class="top">
+   <dl> 
+   <dd align="left">
+            <script type='text/javascript' src='Js/date.js'></script>
+          </dd>
+          <dd><iframe marginwidth='0' marginheight='0' src='http://i.tianqi.com/index.php?c=code&id=34&icon=1' frameborder='0'
+              width='240' scrolling='no' height='20' allowtransparency='allowtransparency'></iframe></dd>
+          </dl>
+         </div>
+   <div class="navbar navbar-default" role="navigation">
+      　<div class="navbar-header">
+         　 <a href="##" class="navbar-brand">食べ物</a>
+         　</div>
+      <ul class="nav navbar-nav">
+         <li class="active"><a href="##">网站首页</a></li>
+         <li class="dropdown">
+            <a href="##" data-toggle="dropdown" class="dropdown-toggle">旅游<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+               <li><a href="https://www.mafengwo.cn/travel-scenic-spot/mafengwo/10222.html" target="_blank">东京</a></li>
+               <li><a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/10765.html" target="_blank">大阪</a></li>
+               <li><a href="http://www.mafengwo.cn/travel-scenic-spot/mafengwo/11043.html" target="_blank">名古屋</a></li>
+            </ul>
+         </li>
+         <li><a href="http://sh.qihoo.com/pc/92fe4152db4850e39?cota=4&tj_url=so_rec&sign=360_e39369d1&refer_scene=so_1"
+               target="_blank">排行榜</a></li>
+         <li><a href="http://sh.qihoo.com/pc/9edef3ef5acd88bf2?cota=4&tj_url=so_rec&sign=360_e39369d1&refer_scene=so_1"
+               target="_blank">相关推荐</a></li>
+      </ul>
+      <form action="##" class="navbar-form navbar-left" rol="search">
+         <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入关键词" />
+         </div>
+         <button type="submit" class="btn btn-default">搜索</button>
+      </form>
+   </div>
+   <div class="jumbotron">
+      <div class="container">
+         <h1 align="center">食物的诱惑</h1>
+         <p><h3 align="center">带你领略日本各地的美食</h3></p>
+      </div>
+   </div>
+   <br><br><br><br>
+   <div class="news" id="about">
+      <div class="container">
+         <div class="news-main_wthree_agile">
+            <div class="col-md-6 news-left">
+               <h1 align="center">日本の美食</h1>
+            </div>
+            <div class="col-md-6 news-right">
+               <p>日本料理极具观赏性，讲究平静、优雅、和平，所选择的材料是以新鲜的海产品和时令新鲜蔬菜为主，具有口感清淡、加工精细、色泽鲜艳、少油腻等特点。</p>
+               <p>自然原味是日本料理的“杀手锏”，其烹调方式细腻精致，注重味觉、触觉、视觉、嗅觉以及器皿和用餐环境的搭配意境。你可以从它的每一种碟、碗、盘中，领会到独特的“美”“雅”“静”。</p>
+               <p>>顶尖日式餐厅国际名厨，倾情传授日本料理烹调技巧，教你做最原汁原味的经典日式料理。从选材到烹调，炮制风味十足的地道日本料理，营养沙拉、酸糯寿司、香辣铁板、生鲜刺身，风味酱汤……炮制最经典、最地道的东瀛美食。
+               </p>
+            </div>
+            <!--轮播-->
+            <div class="clearfix"></div>
+            <div class="mid_slider">
+               <!-- banner -->
+               <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                     <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                     <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                     <div class="item active">
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558502068650&di=64477c7a2f2bc4b1553f5cabd4b99d03&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F8f8655b0d4cd590b215a8db68e894755920b4440b829-HvebxE_fw658"
+                                    alt="和果子" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2522303724,575819698&fm=26&gp=0.jpg"
+                                    alt="寿司" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3845358565,2067293543&fm=26&gp=0.jpg"
+                                    alt="饭团" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2827699258,2931156996&fm=173&s=33C16BA2174204EC080A61280300D05A&w=565&h=353&img.JPEG"
+                                    alt="鳗鱼饭" style="max-width:100%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=64b80ad8a4c27d1eb12b33967abcc60b/21a4462309f7905228a5ff420cf3d7ca7bcbd510.jpg"
+                                    alt="刺身" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558502428537&di=3416f98b84c999d4a625df8c1e2dd195&imgtype=0&src=http%3A%2F%2Fcastle.womany.net%2Fimages%2Fcontent%2Fpictures%2F543%2Fcontent_medium_5355787611__1_.jpg"
+                                    alt="拉面" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=991583792,356772311&fm=173&app=25&f=JPEG?w=640&h=480&s=328CEEA6CA0B1AC43697F66D0300F05B"
+                                    alt="大阪烧" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558503062849&di=2c9b528e22c87b87b7a5a6b0ab1e3ac5&imgtype=0&src=http%3A%2F%2Fyouimg1.c-ctrip.com%2Ftarget%2Ffd%2Ftg%2Fg2%2FM0B%2F1D%2FE9%2FCghzgFWHWwWAbeDRAAK0OiCbuBw412.jpg"
+                                    alt="神户牛肉" style="max-width:100%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2518518458,3330739815&fm=173&app=25&f=JPEG?w=640&h=479&s=768DE6A6748BB0E24C83CA2F0300F05B"
+                                    alt="蟹料理" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558503329323&di=16983db6f1f9d2b8a4f344279ba983b5&imgtype=0&src=http%3A%2F%2Fi3.sinaimg.cn%2Ffashion%2F2013%2F1226%2FU5475P1503DT20131226182901.jpg"
+                                    alt="河豚美食" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=1390718742,2338126787&fm=173&s=0F2A42874E1003C6F49DF13D0300C049&w=568&h=410&img.JPEG"
+                                    alt="日式火锅" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=809434425,2213936777&fm=26&gp=0.jpg"
+                                    alt="蛋浇饭" style="max-width:100%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="row">
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=709757201,1532149276&fm=173&s=691B11D782E81AA6558DE53403007022&w=589&h=381&img.JPEG"
+                                    alt="荞麦面" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558503478805&di=9ec8477f2da1d1fe718da53c0c0408cb&imgtype=0&src=http%3A%2F%2Fmmb-toutiao.oss-cn-shanghai.aliyuncs.com%2FtoutiaoImage%2F1c818df476a295a7b69164fdd1232e71.jpeg"
+                                    alt="味增汤" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3262103118,3746332583&fm=173&s=7E98278E587245820077CD680300203B&w=619&h=380&img.JPEG"
+                                    alt="天妇罗" style="max-width:100%;"></div>
+                           </div>
+                           <div class="col-md-3 col-sm-3 col-xs-3 slidering">
+                              <div class="thumbnail"><img
+                                    src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=594922316,3556810013&fm=173&app=49&f=JPEG?w=400&h=300&s=F6181CC768973AC642B6C9390300D049"
+                                    alt="烤鸡肉串" style="max-width:100%;"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                     <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                     <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                     <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                     <span class="sr-only">Next</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <hr>
+
+   <div class="work" id="services">
+      <div class="container">
+         <div class="work-main">
+            <div class="work-top">
+               <h3 align="center"></span><strong>私 たちのサービス</strong></h3>
+               <p align="center">Loremのipsumのドルドール ざamet、のり もの のVel sapien et</p>
+            </div>
+            <div class="work-bottom_w3ls_agile">
+               <div class="work-bottom-top">
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-spoon" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star" style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>フリッシュ せいひん</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales. </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-apple" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-heart" aria-hidden="true"
+                           style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>ヘルシーフード</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales. </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-home" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-leaf" aria-hidden="true"
+                           style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>ほうほう</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales.</p>
+                     </div>
+                  </div>
+
+                  <div class="clearfix"></div>
+               </div>
+               <div class="work-bottom-top">
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-calendar" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star-empty" style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>じぜん よやく</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales. </p>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-smile-o" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"
+                           style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>ベストシェフ</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales. </p>
+                     </div>
+
+                  </div>
+                  <div class="col-md-4">
+                     <div class="work-bottom-left_agile_w3ls">
+                        <span class="fa fa-child" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-gift" aria-hidden="true"
+                           style="color:yellow;font-size:25px;"></span>
+                        <h4><strong>150テーブル</strong></h4>
+                        <p>デュアは、アセットPosuere Justoを すわり ます。Aenean Elementtum DIAM NEC Laloreet Sodales. </p>
+                     </div>
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!--/文字-->
+   <div class="about" id="about_one">
+      <div class="container">
+         <div class="about-main_w3_agileits">
+            <div class="col-md-6 about-left">
+               <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/chef.jpg" class="img-circle">
+            </div>
+            <div class="col-md-6 about-right_agileits">
+               <br><br><br><br><br>
+               <h2 align="center">ゴフテイスト</h2><br>
+               <p align="center" style="font-size:25px">Nulla sodales efficitur consequat. Maecenas mi <br>diam,
+                  imperdiet consectetur ultricies nec, convallis<br> sit amet turpis.
+                  Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+   <!--菜单制作-->
+   <div class="container" id="menu">
+      <h1 align="center"><strong>Special Menu</strong></h1>
+      <div class="row">
+         <ul id="myTab" class="nav nav-tabs nav-justified">
+            <li class="active">
+               <a href="#home" data-toggle="tab">
+                 BREAKFEST
+               </a>
+            </li>
+            <li><a href="#ios" data-toggle="tab">LUNCH</a></li>
+            <li class="dropdown">
+               <a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">OTHER
+                  <b class="caret"></b>
+               </a>
+               <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                  <li><a href="#jmeter" tabindex="-1" data-toggle="tab">DESSERT</a></li>
+                  <li><a href="#ejb" tabindex="-1" data-toggle="tab">DRINKING</a></li>
+               </ul>
+            </li>
+         </ul>
+         <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="home">
+               <div class="container">
+                <div class="row">
+                   <div class="col-sm-6">
+                        <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="rep-img" id="img1">
+                                    <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal1.jpg"
+                                       class="img-responsive">
+                                 </div>
+                              </div>
+                              <div class="col-sm-7">
+                                 <h4>まぐろ</h4>
+                                 <h6>野 キノコとアスパラ そえ 添え</h6>
+                              </div>
+                              <div class="col-sm-2">
+                                 <h4>$50</h4>
+                              </div>
+                           </div>
+                   </div>
+                   <div class="col-sm-6">
+                        <div class="row">
+                              <div class="col-sm-3">
+                                 <div class="rep-img" id="img1">
+                                    <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal2.jpg"
+                                       class="img-responsive" />
+                                 </div>
+                              </div>
+                              <div class="col-sm-7">
+                                 <h4>オムライス </h4>
+                                 <h6>あじ ハンバーグ そえ </h6>
+                              </div>
+                              <div class="col-sm-2">
+                                 <h4>$25</h4>
+                              </div>
+                           </div>
+                     </div>
+                </div> 
+                <div class="row">
+                     <div class="col-sm-6">
+                          <div class="row">
+                                <div class="col-sm-3">
+                                   <div class="rep-img" id="img1">
+                                      <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal3.jpg"
+                                         class="img-responsive">
+                                   </div>
+                                </div>
+                                <div class="col-sm-7">
+                                   <h4>かつお</h4>
+                                   <h6>ビーフシチュー かに わさび</h6>
+                                </div>
+                                <div class="col-sm-2">
+                                   <h4>$30</h4>
+                                </div>
+                             </div>
+                     </div>
+                     <div class="col-sm-6">
+                          <div class="row">
+                                <div class="col-sm-3">
+                                   <div class="rep-img" id="img1">
+                                      <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal4.jpg"
+                                         class="img-responsive" />
+                                   </div>
+                                </div>
+                                <div class="col-sm-7">
+                                   <h4>カレーライス </h4>
+                                   <h6>カキ氷（かきごおり）ウインナ</h6>
+                                </div>
+                                <div class="col-sm-2">
+                                   <h4>$50</h4>
+                                </div>
+                             </div>
+                       </div>
+                  </div> 
+                  <div class="row">
+                        <div class="col-sm-6">
+                             <div class="row">
+                                   <div class="col-sm-3">
+                                      <div class="rep-img" id="img1">
+                                         <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal5.jpg"
+                                            class="img-responsive">
+                                      </div>
+                                   </div>
+                                   <div class="col-sm-7">
+                                      <h4>まぐろ</h4>
+                                      <h6>野 キノコとアスパラ そえ 添え</h6>
+                                   </div>
+                                   <div class="col-sm-2">
+                                      <h4>$50</h4>
+                                   </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                             <div class="row">
+                                   <div class="col-sm-3">
+                                      <div class="rep-img" id="img1">
+                                         <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal6.jpg"
+                                            class="img-responsive" />
+                                      </div>
+                                   </div>
+                                   <div class="col-sm-7">
+                                      <h4>オムライス </h4>
+                                      <h6>あじ ハンバーグ そえ </h6>
+                                   </div>
+                                   <div class="col-sm-2">
+                                      <h4>$25</h4>
+                                   </div>
+                                </div>
+                          </div>
+                     </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="ios">
+              <div class="container">
+               <div class="row">
+                     <div class="col-sm-6">
+                           <div class="row">
+                                 <div class="col-sm-3">
+                                    <div class="rep-img" id="img1">
+                                       <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal9.jpg"
+                                          class="img-responsive">
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-7">
+                                    <h4>まぐろ</h4>
+                                    <h6>野 キノコとアスパラ そえ 添え</h6>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <h4>$50</h4>
+                                 </div>
+                              </div>
+                      </div>
+                      <div class="col-sm-6">
+                           <div class="row">
+                                 <div class="col-sm-3">
+                                    <div class="rep-img" id="img1">
+                                       <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal8.jpg"
+                                          class="img-responsive" />
+                                    </div>
+                                 </div>
+                                 <div class="col-sm-7">
+                                    <h4>オムライス </h4>
+                                    <h6>あじ ハンバーグ そえ </h6>
+                                 </div>
+                                 <div class="col-sm-2">
+                                    <h4>$25</h4>
+                                 </div>
+                              </div>
+                        </div>
+                   </div> 
+                   <div class="row">
+                        <div class="col-sm-6">
+                             <div class="row">
+                                   <div class="col-sm-3">
+                                      <div class="rep-img" id="img1">
+                                         <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal7.jpg"
+                                            class="img-responsive">
+                                      </div>
+                                   </div>
+                                   <div class="col-sm-7">
+                                      <h4>かつお</h4>
+                                      <h6>ビーフシチュー かに わさび</h6>
+                                   </div>
+                                   <div class="col-sm-2">
+                                      <h4>$30</h4>
+                                   </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-6">
+                             <div class="row">
+                                   <div class="col-sm-3">
+                                      <div class="rep-img" id="img1">
+                                         <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal9.jpg"
+                                            class="img-responsive" />
+                                      </div>
+                                   </div>
+                                   <div class="col-sm-7">
+                                      <h4>カレーライス </h4>
+                                      <h6>カキ氷（かきごおり）ウインナ</h6>
+                                   </div>
+                                   <div class="col-sm-2">
+                                      <h4>$50</h4>
+                                   </div>
+                                </div>
+                          </div>
+               </div>
+               <div class="row">
+                     <div class="col-sm-6">
+                          <div class="row">
+                                <div class="col-sm-3">
+                                   <div class="rep-img" id="img1">
+                                      <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal8.jpg"
+                                         class="img-responsive">
+                                   </div>
+                                </div>
+                                <div class="col-sm-7">
+                                   <h4>まぐろ</h4>
+                                   <h6>野 キノコとアスパラ そえ 添え</h6>
+                                </div>
+                                <div class="col-sm-2">
+                                   <h4>$25</h4>
+                                </div>
+                             </div>
+                     </div>
+                     <div class="col-sm-6">
+                          <div class="row">
+                                <div class="col-sm-3">
+                                   <div class="rep-img" id="img1">
+                                      <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal7.jpg"
+                                         class="img-responsive" />
+                                   </div>
+                                </div>
+                                <div class="col-sm-7">
+                                   <h4>オムライス </h4>
+                                   <h6>あじ ハンバーグ そえ </h6>
+                                </div>
+                                <div class="col-sm-2">
+                                   <h4>$30</h4>
+                                </div>
+                             </div>
+                       </div>
+                  </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="jmeter">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-sm-6">
+                                    <div class="row">
+                                          <div class="col-sm-3">
+                                             <div class="rep-img" id="img1">
+                                                <img src="http://cdn.duitang.com/uploads/item/201502/26/20150226210523_RuPAJ.thumb.700_0.jpeg"
+                                                   class="img-responsive">
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-7">
+                                             <h4>まぐろ</h4>
+                                             <h6>野 キノコとアスパラ そえ 添え</h6>
+                                          </div>
+                                          <div class="col-sm-2">
+                                             <h4>$50</h4>
+                                          </div>
+                                       </div>
+                               </div>
+                               <div class="col-sm-6">
+                                    <div class="row">
+                                          <div class="col-sm-3">
+                                             <div class="rep-img" id="img1">
+                                                <img src="http://pic164.nipic.com/file/20180508/26246157_233354842038_2.jpg"
+                                                   class="img-responsive" />
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-7">
+                                             <h4>オムライス </h4>
+                                             <h6>あじ ハンバーグ そえ </h6>
+                                          </div>
+                                          <div class="col-sm-2">
+                                             <h4>$25</h4>
+                                          </div>
+                                       </div>
+                                 </div>
+                            </div> 
+                            <div class="row">
+                                 <div class="col-sm-6">
+                                      <div class="row">
+                                            <div class="col-sm-3">
+                                               <div class="rep-img" id="img1">
+                                                  <img src="http://pic27.nipic.com/20130329/8019543_154116306000_2.jpg"
+                                                     class="img-responsive">
+                                               </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                               <h4>かつお</h4>
+                                               <h6>ビーフシチュー かに わさび</h6>
+                                            </div>
+                                            <div class="col-sm-2">
+                                               <h4>$30</h4>
+                                            </div>
+                                         </div>
+                                 </div>
+                                 <div class="col-sm-6">
+                                      <div class="row">
+                                            <div class="col-sm-3">
+                                               <div class="rep-img" id="img1">
+                                                  <img src="http://img3.redocn.com/tupian/20150119/tianpinheisenlindangao_3642576.jpg"
+                                                     class="img-responsive" />
+                                               </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                               <h4>カレーライス </h4>
+                                               <h6>カキ氷（かきごおり）ウインナ</h6>
+                                            </div>
+                                            <div class="col-sm-2">
+                                               <h4>$50</h4>
+                                            </div>
+                                         </div>
+                                   </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-sm-6">
+                                   <div class="row">
+                                         <div class="col-sm-3">
+                                            <div class="rep-img" id="img1">
+                                               <img src="http://p2.so.qhmsg.com/sdr/400__/t014ff2646a67dfdf17.jpg"
+                                                  class="img-responsive">
+                                            </div>
+                                         </div>
+                                         <div class="col-sm-7">
+                                            <h4>まぐろ</h4>
+                                            <h6>野 キノコとアスパラ そえ 添え</h6>
+                                         </div>
+                                         <div class="col-sm-2">
+                                            <h4>$25</h4>
+                                         </div>
+                                      </div>
+                              </div>
+                              <div class="col-sm-6">
+                                   <div class="row">
+                                         <div class="col-sm-3">
+                                            <div class="rep-img" id="img1">
+                                               <img src="http://p1.so.qhimgs1.com/sdr/400__/t0149b0cdb722859e1d.jpg"
+                                                  class="img-responsive" />
+                                            </div>
+                                         </div>
+                                         <div class="col-sm-7">
+                                            <h4>オムライス </h4>
+                                            <h6>あじ ハンバーグ そえ </h6>
+                                         </div>
+                                         <div class="col-sm-2">
+                                            <h4>$30</h4>
+                                         </div>
+                                      </div>
+                                </div>
+                           </div>
+                       </div>
+            </div>
+            <div class="tab-pane fade" id="ejb">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-sm-6">
+                                    <div class="row">
+                                          <div class="col-sm-3">
+                                             <div class="rep-img" id="img1">
+                                                <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal12.jpg"
+                                                   class="img-responsive">
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-7">
+                                             <h4>まぐろ</h4>
+                                             <h6>野 キノコとアスパラ そえ 添え</h6>
+                                          </div>
+                                          <div class="col-sm-2">
+                                             <h4>$50</h4>
+                                          </div>
+                                       </div>
+                               </div>
+                               <div class="col-sm-6">
+                                    <div class="row">
+                                          <div class="col-sm-3">
+                                             <div class="rep-img" id="img1">
+                                                <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal10.jpg"
+                                                   class="img-responsive" />
+                                             </div>
+                                          </div>
+                                          <div class="col-sm-7">
+                                             <h4>オムライス </h4>
+                                             <h6>あじ ハンバーグ そえ </h6>
+                                          </div>
+                                          <div class="col-sm-2">
+                                             <h4>$25</h4>
+                                          </div>
+                                       </div>
+                                 </div>
+                            </div> 
+                            <div class="row">
+                                 <div class="col-sm-6">
+                                      <div class="row">
+                                            <div class="col-sm-3">
+                                               <div class="rep-img" id="img1">
+                                                  <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal11.jpg"
+                                                     class="img-responsive">
+                                               </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                               <h4>かつお</h4>
+                                               <h6>ビーフシチュー かに わさび</h6>
+                                            </div>
+                                            <div class="col-sm-2">
+                                               <h4>$30</h4>
+                                            </div>
+                                         </div>
+                                 </div>
+                                 <div class="col-sm-6">
+                                      <div class="row">
+                                            <div class="col-sm-3">
+                                               <div class="rep-img" id="img1">
+                                                  <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal13.jpg"
+                                                     class="img-responsive" />
+                                               </div>
+                                            </div>
+                                            <div class="col-sm-7">
+                                               <h4>カレーライス </h4>
+                                               <h6>カキ氷（かきごおり）ウインナ</h6>
+                                            </div>
+                                            <div class="col-sm-2">
+                                               <h4>$50</h4>
+                                            </div>
+                                         </div>
+                                   </div>
+                        </div>
+                        <div class="row">
+                              <div class="col-sm-6">
+                                   <div class="row">
+                                         <div class="col-sm-3">
+                                            <div class="rep-img" id="img1">
+                                               <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal10.jpg"
+                                                  class="img-responsive">
+                                            </div>
+                                         </div>
+                                         <div class="col-sm-7">
+                                            <h4>まぐろ</h4>
+                                            <h6>野 キノコとアスパラ そえ 添え</h6>
+                                         </div>
+                                         <div class="col-sm-2">
+                                            <h4>$25</h4>
+                                         </div>
+                                      </div>
+                              </div>
+                              <div class="col-sm-6">
+                                   <div class="row">
+                                         <div class="col-sm-3">
+                                            <div class="rep-img" id="img1">
+                                               <img src="http://demo.cssmoban.com/cssthemes6/cpts_1738_cus/images/gal11.jpg"
+                                                  class="img-responsive" />
+                                            </div>
+                                         </div>
+                                         <div class="col-sm-7">
+                                            <h4>オムライス </h4>
+                                            <h6>あじ ハンバーグ そえ </h6>
+                                         </div>
+                                         <div class="col-sm-2">
+                                            <h4>$30</h4>
+                                         </div>
+                                      </div>
+                                </div>
+                           </div>
+                       </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!--文字2-->
+   <div class="choose">
+      <div class="container">
+         <div class="choose-main">
+            <div class="col-md-5 choose-left">
+               <h2 align="center">とくべつ サービス</h2>
+            </div>
+            <div class="col-md-7 choose-right">
+               <div class="col-md-6 choose-right-top">
+                  <h4>ベストシェフ</h4>
+                  <p>デュアは、アセットを すわり ます。モルビ ゆうわく にちでん.</p>
+               </div>
+               <div class="col-md-6 choose-right-top">
+                  <h4>150テーブル</h4>
+                  <p>カキ氷（かきごおり）ウインナ デュアは、アセットを すわり ます。モルビ ゆうわく にちでん.</p>
+               </div>
+               <div class="clearfix"></div>
+               <div class="col-md-6 choose-right-top">
+                  <h4>カード しはらい</h4>
+                  <p>アセットを にちでん カキ氷（かきごおり）ウインナ. </p>
+               </div>
+               <div class="col-md-6 choose-right-top">
+                  <h4>とくべつ オファー</h4>
+                  <p>しせん が あん さいけんのためにバイリンガル ずかこコーナーを きふ します。.</p>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+   </div>
+<!--介绍-->
+<div class="qqq">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6" style="color: yellow">
+               <h2>About us</h2>
+               <h3>Nori grape silver beet broccoli kombu<br> beet greens fava bean potato<br> quandong celery. 
+               Bunya nuts black-<br>eyed pea prairie turnip leek lentil<br> turnip greens parsnip.Nori grape silver<br> beet broccoli kombu<br> beet greens fava bean potato<br> quandong celery. 
+               Bunya nuts black-<br>eyed pea prairie turnip leek lentil<br> turnip greens parsnip.</h3>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="contact">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+               <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text the printing and<br>
+                 typesetting industry.</h4>
+                 <br><span class="glyphicon glyphicon-envelope" style="color:rgb(0, 183, 255);font-size:25px;"></span><a href="">1234567890@qq.com</a>
+                 <br><span class="glyphicon glyphicon-comment" style="color:rgb(0, 183, 255);font-size:25px;"></span><a href="">1234567890</a>
+                 <br><span class="glyphicon glyphicon-earphone" style="color:rgb(0, 183, 255);font-size:25px;"></span>0577-1234567
+                 <br><span class="glyphicon glyphicon-earphone" style="color:rgb(0, 183, 255);font-size:25px;"></span>0577-1234567
+         </div>
+         <div class="col-md-6">
+               <form class="form-horizontal" role="form">
+                     <div class="form-group">
+                       <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                       <div class="col-sm-10">
+                         <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                       </div>
+                     </div>
+                     <div class="form-group">
+                       <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                       <div class="col-sm-10">
+                         <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                       </div>
+                     </div>
+                     <div class="form-group">
+                       <div class="col-sm-offset-2 col-sm-10">
+                         <div class="checkbox">
+                           <label>
+                             <input type="checkbox"> Remember me
+                           </label>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="form-group">
+                       <div class="col-sm-offset-2 col-sm-10">
+                         <button type="submit" class="btn btn-default">Sign in</button>
+                       </div>
+                     </div>
+                   </form>
+            </div>
+      </div>
+   </div>
+</div>
+
+   <!--footer-->
+   <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>关于我的</p>
+      <div class="bot">
+         <div class="bot_in">
+            <ul>
+               <li>联系方式：0577-12345678　联系地址：中国.浙江.温州 (茶山高教园区) 邮编：325035 技术支持：<a
+                     href='https://www.bilibili.com/'>bilibili</a>　
+                  访问统计：
+                  <script language='javascript' type='text/javascript'
+                     src='http://quote.51.la/?id=5078625&amp;mb=1'></script>&nbsp;
+                  <script language='javascript' type='text/javascript' src='http://js.users.51.la/5078625.js'></script>
+                  <noscript><a href='http://www.51.la/?5078625' target='_blank'><img
+                           alt='&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;'
+                           src='http://img.users.51.la/5078625.asp' style='border:none' /></a></noscript></li>
+               <li>版权所有：温州大学瓯江学院一学生 Copyright &copy; 2006-2011 All Rights Reserved<br>
+                  有问题请联系：<a href="mailto:1246264141@qq.com">1246264141@qq.com</a></li>
+            </ul>
+
+         </div>
+      </div>
+
+</body>
+
+</html>
